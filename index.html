@@ -10,9 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--HEADER-->
     <header class="w3-container w3-theme-grape">
-        <div class="w3-row top">
-            <div class="w3-col s6 picture">
+        <!--BIG SCREEN HEADER-->
+        <div class="w3-row top big">
+            <div class="w3-col s6">
                 <img src="images/MB.png" class="me" alt="photography designer artist flourish design fancy goth">
             </div>
             <div class="w3-col s6 bio">
@@ -22,10 +24,28 @@
             </div>
         </div>
 
+        <!--SMALL SCREEN HEADER-->
+        <div class="w3-container w3-center info-row top small">
+            <div class="w3-row">
+                <div class="w3-col s5 picture">
+                    <img src="images/MB.png" class="me-small" alt="photography designer artist flourish design fancy goth">
+                </div>
+                <div class="w3-col s7 info">
+                    <a href="#0"><h3 class="name">Mish Burton</h3></a>
+                    <h4 class="title">Visual Artist</h4>
+                </div>
+            <div class="w3-row bio-small">
+                <p class="white-text" >I am passionate about photography, graphic design and user experience & user interface design. I love the intersection of art and technology. I enjoy leading teams and developing design department protocols. As a non binary person I am a valuable consultant for LGBTQIA+ messaging.</p>
+            </div>
+        </div>
+
+        <!--STICKY HEADER-->
         <div class="w3-row w3-center topshort">
-            <a href="#0"><h3 class="name home">Mish Burton</h3></a>
+            <a href="#0"><h3 class="home">Mish Burton</h3></a>
         </div>
     </header>
+
+    <!--MAIN-->
     <div class="w3-container w3-center w3-padding-16 w3-theme-charcoal main">
     	<!-- -->
         <div class="w3-row">
@@ -53,18 +73,9 @@
 			</div>
         </div>
     </div>
-
-        <!-- 
-        <div class="w3-row">
-            <a href="#0"><img src="images/graphic.png" class="category w3-padding-16" alt="Graphic Design"></a>
-            <a href="#0"><img src="images/ui.png" class="category w3-padding-16" alt="User Experience & Intereaction Design"></a>
-        </div>
-        <div class="w3-row">
-            <a href="#0"><img src="images/retouching.png" class="category w3-padding-16" alt="Photo Retouching"></a>
-            <a href="#0"><img src="images/photo.png" class="category w3-padding-16" alt="Photography"></a>
-        </div>
-    -->
     </div>
+
+<!--FOOTER-->
     <footer class="w3-container w3-center w3-padding-16 w3-theme-grape">
         <ul class="w3-ul social">
             <li class="w3-border-0">
@@ -88,5 +99,7 @@
             <li class="w3-border-0 date">Mish Burton 2021</li>
         </ul>
     </footer>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
