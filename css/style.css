@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-h1{font-size:5vw;}
+h1{font-size:4vw;}
 h2{font-size:48px;}
 h3{font-size:36px;}
 h4{font-size:24px;}
@@ -12,7 +12,7 @@ h5{font-size:20px;}
 h6{font-size:18px;}
 
 html, body, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 300;
   }
 h1 {
@@ -61,9 +61,8 @@ h4 {
 .info-row {
     //width: 400px;
 }
-
-.white-text {
-    color: #fff;
+.light-text {
+    color: #EDEDED;
 }
 .bio {
     max-width: 325px;
@@ -129,9 +128,6 @@ a:link {
     white-space: nowrap;
     margin-bottom: 6px;
 }
-.upper {
-    margin-bottom: -36px;
-}
 
 
 
@@ -161,24 +157,15 @@ li {
     margin-bottom: 16px;
     margin-top: 44px;
 }
-.copyright {
-    margin-bottom: 0;
-    margin-top: 16px;
-    display: inline;
-}
-.copy {
-    font-family: Alice;
-    margin-right: -14px;
-}
 .date {
-    margin-left: -14px;
+    margin-top: 16px;
 }
 
 
 
 @media screen and (max-width: 600px) {
 
-    h1{font-size: 10vw;}
+    h1{font-size: 8vw;}
 
     footer, .main {
         background-size: 100% 24px;
